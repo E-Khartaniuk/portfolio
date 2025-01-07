@@ -1,9 +1,17 @@
 // import { useState } from 'react'
-
-import "./App.css";
+import Header from "./components/Header/Header";
+import AboutMe from "./components/Hero/Hero";
+import Skills from "./components/Skills/Skills";
+// import "./App.css";
 
 const App = () => {
-  return <h1>Hello, React with TypeScript1!</h1>;
+  return (
+    <>
+      <Header />
+      <AboutMe />
+      <Skills />
+    </>
+  );
 };
 
 export default App;
