@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 32px;
+}
+
+.logo {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 120% */
+  letter-spacing: -0.4px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
+}
+
+.navigation {
+  display: flex;
+  gap: 32px;
+
+  a {
+    color: #000;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 120% */
+    letter-spacing: -0.4px;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+}
+
+.downloadButton {
+  color: rgb(255, 255, 255);
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+
+  display: flex;
+  height: 56px;
+  padding: 16px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  background-color: #000;
+}
