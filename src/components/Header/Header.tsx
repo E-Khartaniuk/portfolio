@@ -1,6 +1,7 @@
 import React from "react";
 import css from "./Header.module.css";
 import DownloadIcon from "../../img/DownloadIcon";
+// import { ReactComponent as Download } from "../../img/download.svg";
 // import DownloadIcon from "../../img/DownloadIcon";
 
 function Header() {
@@ -18,11 +19,12 @@ function Header() {
       </nav>
 
       <a
-        href="path/to/your/file.zip"
-        download="KHARTANIUK YEVHENII"
+        href="../../../public/KHARTANIUK YEVHENII.pdf"
+        download="KHARTANIUK YEVHENII1"
         className={css.downloadButton}>
         Resume
         <DownloadIcon />
+        {/* <Download /> */}
       </a>
     </header>
   );
