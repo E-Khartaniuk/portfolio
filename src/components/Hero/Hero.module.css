@@ -36,15 +36,15 @@
 }
 
 .heroDescription {
+  width: 600px;
+  margin-top: 32px;
+
   color: var(--Zinc-500);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
-
-  width: 600px;
-  margin-top: 32px;
 }
 
 .banner {
@@ -54,8 +54,6 @@
 
   padding-top: 60px;
   z-index: -1;
-
-  /* width: 500px; */
 }
 
 .socialIconList {
@@ -69,19 +67,26 @@
 .socialIconItem {
   width: 56px;
   height: 56px;
-  /* padding: 16px; */
 
   border-radius: 4px;
-  border: 2px solid var(--Primary-Black, #000);
+  border: 2px solid var(--Primary-Black, var(--Primary-Black));
 
   cursor: pointer;
+
+  &:hover {
+    background-color: var(--Primary-Black);
+  }
 }
 
 .socialIconItemLink {
   display: block;
-  width: 56px;
-  height: 56px;
+  z-index: 2;
 }
 
 .socialIconItemLogo {
+  padding: 12px;
+
+  &:hover {
+    fill: var(--Primary-White);
+  }
 }

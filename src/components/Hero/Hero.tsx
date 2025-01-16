@@ -1,12 +1,11 @@
 import React from "react";
 
 import css from "./Hero.module.css";
-// import { ReactComponent as Banner } from "../../img/Banner-min.svg";
+import { ReactComponent as TelegramLogo2 } from "../../img/telegram.svg";
+import { ReactComponent as FacebookLogo } from "../../img/facebook.svg";
+import { ReactComponent as LinkedinkLogo } from "../../img/linkedin.svg";
+import { ReactComponent as GitHubLogo } from "../../img/github-mark.svg";
 import banner from "../../img/Banner-min.svg";
-import telegramLogo from "../../img/telegram.svg";
-import facebookLogo from "../../img/facebook.svg";
-import linkedinkLogo from "../../img/linkedin.svg";
-import gitHubLogo from "../../img/github-mark.svg";
 
 function AboutMe() {
   return (
@@ -28,32 +27,33 @@ function AboutMe() {
         <ul className={css.socialIconList}>
           <li className={css.socialIconItem}>
             <a href="https://t.me/hartanyuk" className={css.socialIconItemLink}>
-              <img
-                src={telegramLogo}
-                alt=""
-                className={css.socialIconItemLogo}
-              />
+              <TelegramLogo2 className={css.socialIconItemLogo} />
             </a>
           </li>
           <li className={css.socialIconItem}>
-            <a href="https://www.facebook.com/profile.php?id=100011354949673&locale=ru_RU">
-              <img src={facebookLogo} alt="" />
+            <a
+              href="https://www.facebook.com/profile.php?id=100011354949673&locale=ru_RU"
+              className={css.socialIconItemLink}>
+              <FacebookLogo className={css.socialIconItemLogo} />
             </a>
           </li>
           <li className={css.socialIconItem}>
-            <a href="https://www.linkedin.com/in/yevhenii-khartaniuk-45b279251/">
-              <img src={linkedinkLogo} alt="" />
+            <a
+              href="https://www.linkedin.com/in/yevhenii-khartaniuk-45b279251/"
+              className={css.socialIconItemLink}>
+              <LinkedinkLogo className={css.socialIconItemLogo} />
             </a>
           </li>
           <li className={css.socialIconItem}>
-            <a href="https://github.com/E-Khartaniuk">
-              <img src={gitHubLogo} alt="" />
+            <a
+              href="https://github.com/E-Khartaniuk"
+              className={css.socialIconItemLink}>
+              <GitHubLogo className={css.socialIconItemLogo} />
             </a>
           </li>
         </ul>
       </div>
       <img src={banner} alt="Banner" className={css.banner} />
-      {/* <Banner className={css.banner} /> */}
     </section>
   );
 }

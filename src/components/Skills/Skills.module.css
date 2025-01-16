@@ -1,0 +1,31 @@
+.section {
+  position: relative;
+  width: 1216px;
+  padding: 170px 32px 24px 32px;
+}
+
+.skillsList {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+
+  list-style: none;
+}
+
+.skillsListItem {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+
+  width: 186px;
+  height: 186px;
+  padding: 24px;
+  border: 1px solid var(--Primary-Black);
+  border-radius: 2px;
+
+  border-radius: 4px;
+  border: 2px solid var(--Primary-Black, #000);
+  background: var(--Primary-White, #fff);
+}
