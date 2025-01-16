@@ -10,27 +10,30 @@ import { ReactComponent as GitLogo } from "../../img/icon-git.svg";
 function Skills() {
   return (
     <section className={css.section}>
-      <h2>My Skills</h2>
+      <h2 className={css.title}>
+        <span className={css.titleMy}>My </span>
+        <span className={css.titleSkills}>Skills</span>
+      </h2>
       <ul className={css.skillsList}>
         <li className={css.skillsListItem}>
-          <TypescriptLogo />
-          <p>Typescript</p>
+          <TypescriptLogo className={css.skillsLogo} />
+          <p className={css.skillDecription}>Typescript</p>
         </li>
         <li className={css.skillsListItem}>
-          <SassLogo />
-          <p>Sass</p>
+          <SassLogo className={css.skillsLogo} />
+          <p className={css.skillDecription}>Sass</p>
         </li>
         <li className={css.skillsListItem}>
-          <ReactLogo />
-          <p>React</p>
+          <ReactLogo className={css.skillsLogo} />
+          <p className={css.skillDecription}>React</p>
         </li>
         <li className={css.skillsListItem}>
-          <JavscriptLogo />
-          <p>JavScript</p>
+          <JavscriptLogo className={css.skillsLogo} />
+          <p className={css.skillDecription}>JavScript</p>
         </li>
         <li className={css.skillsListItem}>
-          <GitLogo />
-          <p>Git</p>
+          <GitLogo className={css.skillsLogo} />
+          <p className={css.skillDecription}>Git</p>
         </li>
       </ul>
     </section>

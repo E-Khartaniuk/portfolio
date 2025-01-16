@@ -1,8 +1,6 @@
 import React from "react";
 import css from "./Header.module.css";
 import DownloadIcon from "../../img/DownloadIcon";
-// import { ReactComponent as Download } from "../../img/download.svg";
-// import DownloadIcon from "../../img/DownloadIcon";
 
 function Header() {
   return (

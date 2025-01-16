@@ -10,12 +10,7 @@ function Projects() {
           <div>
             <p>01</p>
             <h3>Project1</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae itaque consequatur totam assumenda placeat libero
-              dicta, reiciendis temporibus dignissimos praesentium nam amet
-              natus dolor, eos maiores, officia voluptate minus mollitia!
-            </p>
+            <p></p>
             <a href="">link</a>
           </div>
         </li>

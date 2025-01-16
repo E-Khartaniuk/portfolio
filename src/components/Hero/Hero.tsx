@@ -11,7 +11,7 @@ function AboutMe() {
   return (
     <section className={css.heroSection}>
       <div className={css.heroContainer}>
-        <h1>
+        <h1 className={css.title}>
           <span className={css.thin}>Hello I’am </span>
           <span className={css.bold}>Yevhenii Khartaniuk. Frontend</span>
           <samp className={css.stroke}> Developer </samp>
