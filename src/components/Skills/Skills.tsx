@@ -11,8 +11,8 @@ function Skills() {
   return (
     <section className={css.section}>
       <h2 className={css.title}>
-        <span className={css.titleMy}>My </span>
-        <span className={css.titleSkills}>Skills</span>
+        My
+        <span className={css.titleSkills}> Skills</span>
       </h2>
       <ul className={css.skillsList}>
         <li className={css.skillsListItem}>

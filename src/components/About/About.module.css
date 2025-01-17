@@ -1,0 +1,48 @@
+.section {
+  display: flex;
+  gap: 80px;
+  background-color: var(--Primary-White);
+  margin: 0 auto;
+  padding: 60px 0 60px 0;
+  width: 1216px;
+  color: var(--Primary-Black);
+  text-align: center;
+}
+.aboutImage {
+  background-image: url("../../img/About-img.svg");
+  width: 530px;
+  height: 572px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border: 1px solid violet;
+}
+
+.containerAbout {
+  width: 610px;
+  border: 1px solid violet;
+}
+
+.aboutTitle {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.96px;
+
+  & .aboutTitleMe {
+    font-weight: 800;
+  }
+}
+
+.aboutDescription {
+  color: var(--Zinc-500, #71717a);
+
+  font-size: 16px;
+
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+
+  text-align: start;
+}
