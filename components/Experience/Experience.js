@@ -1,0 +1,6 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import css from "./Experience.module.css";
+function Experience() {
+    return (_jsx("section", { className: css.section, children: _jsxs("div", { className: css.containerExperience, children: [_jsxs("h1", { className: css.title, children: ["My", _jsx("span", { className: css.titleExperience, children: " Experience" })] }), _jsxs("ul", { className: css.experienceList, children: [_jsxs("li", { className: css.experienceListItem, children: [_jsx("h3", { className: css.experienceListItemTitle, children: "Frontend Developer" }), _jsx("p", { className: css.experienceListItemDescription, children: "One year of studying full-stack development. Over a year of experience as a frontend developer, creating personal applications using React. Skilled in developing modern SPAs with React." })] }), _jsxs("li", { className: css.experienceListItem, children: [_jsx("h3", { className: css.experienceListItemTitle, children: "Video editor" }), _jsx("p", { className: css.experienceListItemDescription, children: "Creation of video content for business (motion design, promotional videos, corporate films, presentation video). Work with large international and Ukrainian companies. Bringing the stock direction to a stable profit" })] })] })] }) }));
+}
+export default Experience;

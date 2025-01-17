@@ -1,0 +1,6 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+import css from "./About.module.css";
+function About() {
+    return (_jsxs("section", { className: css.section, children: [_jsx("div", { className: css.aboutImage, "aria-hidden": "true" }), _jsxs("div", { className: css.containerAbout, children: [_jsxs("h2", { className: css.aboutTitle, children: ["About", _jsx("span", { className: css.aboutTitleMe, children: " Me" })] }), _jsx("p", { className: css.aboutDescription, children: "I am a junior frontend developer passionate about creating modern and user-friendly web applications. I have completed a full-stack development course, where I gained proficiency in key technologies such as HTML, CSS, JavaScript, React, Redux, and TypeScript." }), _jsx("p", { className: css.aboutDescription, children: "Every project is an opportunity for me to enhance my skills, explore new approaches, and deliver solutions that provide seamless and enjoyable user experiences." }), _jsx("p", { className: css.aboutDescription, children: "My goal is to grow as a skilled frontend developer, contribute to building cutting-edge digital products, and continue advancing in this exciting field." })] })] }));
+}
+export default About;
