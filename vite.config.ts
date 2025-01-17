@@ -7,5 +7,5 @@ import svgr from '@svgr/rollup';
 export default defineConfig({
   plugins: [react(),
     svgr()
-  ],
+  ], base: 'https://github.com/E-Khartaniuk/portfolio',
 })
