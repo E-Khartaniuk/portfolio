@@ -5,7 +5,13 @@ import { ReactComponent as FacebookLogo } from "../../img/facebook.svg";
 import { ReactComponent as LinkedinkLogo } from "../../img/linkedin.svg";
 import { ReactComponent as GitHubLogo } from "../../img/github-mark.svg";
 
-function ContactsLinks() {
+interface ContactsLinksProps {
+  gitHub: boolean;
+}
+
+const ContactsLinks: React.FC<ContactsLinksProps> = ({
+  gitHub,
+}: ContactsLinksProps) => {
   return (
     <ul className={css.socialIconList}>
       <li className={css.socialIconItem}>
@@ -27,15 +33,18 @@ function ContactsLinks() {
           <LinkedinkLogo className={css.socialIconItemLogo} />
         </a>
       </li>
-      <li className={css.socialIconItem}>
-        <a
-          href="https://github.com/E-Khartaniuk"
-          className={css.socialIconItemLink}>
-          <GitHubLogo className={css.socialIconItemLogo} />
-        </a>
-      </li>
+
+      {gitHub && (
+        <li className={css.socialIconItem}>
+          <a
+            href="https://github.com/E-Khartaniuk"
+            className={css.socialIconItemLink}>
+            <GitHubLogo className={css.socialIconItemLogo} />
+          </a>
+        </li>
+      )}
     </ul>
   );
-}
+};
 
 export default ContactsLinks;

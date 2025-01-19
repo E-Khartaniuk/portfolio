@@ -1,10 +1,6 @@
 import React from "react";
 
 import css from "./Hero.module.css";
-// import { ReactComponent as TelegramLogo2 } from "../../img/telegram.svg";
-// import { ReactComponent as FacebookLogo } from "../../img/facebook.svg";
-// import { ReactComponent as LinkedinkLogo } from "../../img/linkedin.svg";
-// import { ReactComponent as GitHubLogo } from "../../img/github-mark.svg";
 import banner from "../../img/Banner-min.svg";
 import ContactsLinks from "../ContactsLinks/ContactsLinks";
 
@@ -25,7 +21,7 @@ function AboutMe() {
           applications. Possess good communication skills and a positive outlook
           on life. Seeking an opportunity to grow and contribute to your team.
         </p>
-        <ContactsLinks />
+        <ContactsLinks gitHub={true} />
       </div>
       <img src={banner} alt="Banner" className={css.banner} />
     </section>

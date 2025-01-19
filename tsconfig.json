@@ -1,17 +1,17 @@
 {
   "compilerOptions": {
-    "outDir": "./dist", // Папка для выходных файлов
-    "rootDir": "./src", // Исходные файлы
-    "strict": true, // Включить строгий режим TypeScript
-    "module": "ESNext", // Модульная система
-    "target": "ESNext", // Целевой стандарт JS
-    "jsx": "react-jsx", // Поддержка JSX
-    "moduleResolution": "node", // Разрешение модулей
-    "esModuleInterop": true, // Поддержка CommonJS и ES Modules
-    "skipLibCheck": true, // Пропуск проверки типов в файлах библиотеки
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "module": "ESNext",
+    "target": "ESNext",
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
     // "typeRoots": ["./node_modules/@types", "./src/types"]
   },
-  "include": ["src", "svg.d.ts"], // Какие файлы включить
-  "exclude": ["node_modules", "dist"] // Исключения
+  "include": ["src", "svg.d.ts"],
+  "exclude": ["node_modules", "dist"]
 }

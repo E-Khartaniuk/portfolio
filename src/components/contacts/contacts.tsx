@@ -17,7 +17,7 @@ function Contacts() {
           +380634406416
         </a>
       </div>
-      <ContactsLinks />
+      <ContactsLinks gitHub={false} />
     </section>
   );
 }
