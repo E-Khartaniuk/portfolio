@@ -17,6 +17,13 @@
   }
 }
 
+.contactsContainer {
+  margin-top: 74px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .email,
 .number {
   color: var(--Primary-Black, #000);

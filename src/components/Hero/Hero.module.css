@@ -30,27 +30,6 @@
   }
 }
 
-/* .thin {
-  font-size: 48px;
-   font-weight: 400;
-  line-height: 56px; 
-  letter-spacing: -0.96px;
-}
-.bold {
-  font-size: 48px;
-   font-weight: 800;
-  line-height: 56px; 
-  letter-spacing: -0.96px;
-}
-.stroke {
-  color: var(--Primary-White);
-  -webkit-text-stroke: 1px var(--Primary-Black);
-  font-size: 48px;
-   font-weight: 800;
-  line-height: 56px; 
-  letter-spacing: -0.96px;
-} */
-
 .heroDescription {
   width: 600px;
   margin-top: 32px;
@@ -70,39 +49,4 @@
 
   padding-top: 60px;
   z-index: -1;
-}
-
-.socialIconList {
-  margin-top: 74px;
-
-  display: flex;
-  gap: 32px;
-  list-style: none;
-}
-
-.socialIconItem {
-  width: 56px;
-  height: 56px;
-  border-radius: 4px;
-  border: 2px solid var(--Primary-Black, var(--Primary-Black));
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-
-  &:hover {
-    background-color: var(--Primary-Black);
-  }
-}
-
-.socialIconItemLink {
-  display: block;
-  z-index: 2;
-}
-
-.socialIconItemLogo {
-  padding: 12px;
-  transition: fill 0.3s ease;
-
-  &:hover {
-    fill: var(--Primary-White);
-  }
 }

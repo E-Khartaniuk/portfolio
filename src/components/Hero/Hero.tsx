@@ -1,11 +1,12 @@
 import React from "react";
 
 import css from "./Hero.module.css";
-import { ReactComponent as TelegramLogo2 } from "../../img/telegram.svg";
-import { ReactComponent as FacebookLogo } from "../../img/facebook.svg";
-import { ReactComponent as LinkedinkLogo } from "../../img/linkedin.svg";
-import { ReactComponent as GitHubLogo } from "../../img/github-mark.svg";
+// import { ReactComponent as TelegramLogo2 } from "../../img/telegram.svg";
+// import { ReactComponent as FacebookLogo } from "../../img/facebook.svg";
+// import { ReactComponent as LinkedinkLogo } from "../../img/linkedin.svg";
+// import { ReactComponent as GitHubLogo } from "../../img/github-mark.svg";
 import banner from "../../img/Banner-min.svg";
+import ContactsLinks from "../ContactsLinks/ContactsLinks";
 
 function AboutMe() {
   return (
@@ -24,34 +25,7 @@ function AboutMe() {
           applications. Possess good communication skills and a positive outlook
           on life. Seeking an opportunity to grow and contribute to your team.
         </p>
-        <ul className={css.socialIconList}>
-          <li className={css.socialIconItem}>
-            <a href="https://t.me/hartanyuk" className={css.socialIconItemLink}>
-              <TelegramLogo2 className={css.socialIconItemLogo} />
-            </a>
-          </li>
-          <li className={css.socialIconItem}>
-            <a
-              href="https://www.facebook.com/profile.php?id=100011354949673&locale=ru_RU"
-              className={css.socialIconItemLink}>
-              <FacebookLogo className={css.socialIconItemLogo} />
-            </a>
-          </li>
-          <li className={css.socialIconItem}>
-            <a
-              href="https://www.linkedin.com/in/yevhenii-khartaniuk-45b279251/"
-              className={css.socialIconItemLink}>
-              <LinkedinkLogo className={css.socialIconItemLogo} />
-            </a>
-          </li>
-          <li className={css.socialIconItem}>
-            <a
-              href="https://github.com/E-Khartaniuk"
-              className={css.socialIconItemLink}>
-              <GitHubLogo className={css.socialIconItemLogo} />
-            </a>
-          </li>
-        </ul>
+        <ContactsLinks />
       </div>
       <img src={banner} alt="Banner" className={css.banner} />
     </section>
