@@ -25,7 +25,7 @@
   }
 }
 
-.projectsList .projectsListItem:nth-child(2) {
+.projectsList .projectsListItem:nth-child(even) {
   flex-direction: row-reverse;
 }
 
