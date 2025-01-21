@@ -2,6 +2,8 @@ import React from "react";
 import css from "./Projects.module.css";
 import { ReactComponent as LinkIcon } from "../../img/link-icon.svg";
 
+import img from "../../img/2_1_1.gif";
+
 function Projects() {
   return (
     <section className={css.section}>
@@ -28,7 +30,7 @@ function Projects() {
             </div>
           </li>
           <li className={css.projectsListItem}>
-            <img src="" alt="" className={css.projectsListImage} />
+            <img src={img} alt="a" className={css.projectsListImage} />
             <div className={css.projectsListItemContainer}>
               <p className={css.projectNumber}>02</p>
               <h3 className={css.projectTitle}> Filmoteka</h3>

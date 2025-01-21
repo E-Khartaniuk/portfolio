@@ -40,6 +40,7 @@
 }
 
 .projectsListImage {
+  display: block;
   width: 530px;
   height: 397.735px;
   flex-shrink: 0;
