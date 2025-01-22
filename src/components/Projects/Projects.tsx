@@ -2,7 +2,9 @@ import React from "react";
 import css from "./Projects.module.css";
 import { ReactComponent as LinkIcon } from "../../img/link-icon.svg";
 
-import img from "../../img/2_1_1.gif";
+import filmotekaGif from "../../img/Filmoteka-gif.gif";
+import ApeNFTGif from "../../img/App-gif.gif";
+import TaskProGif from "../../img/Task-Pro-gif.gif";
 
 function Projects() {
   return (
@@ -13,7 +15,7 @@ function Projects() {
         </h2>
         <ul className={css.projectsList}>
           <li className={css.projectsListItem}>
-            <img src="" alt="" className={css.projectsListImage} />
+            <img src={ApeNFTGif} alt="" className={css.projectsListImage} />
             <div className={css.projectsListItemContainer}>
               <p className={css.projectNumber}>01</p>
               <h3 className={css.projectTitle}>Ape-NFT</h3>
@@ -30,7 +32,7 @@ function Projects() {
             </div>
           </li>
           <li className={css.projectsListItem}>
-            <img src={img} alt="a" className={css.projectsListImage} />
+            <img src={filmotekaGif} alt="a" className={css.projectsListImage} />
             <div className={css.projectsListItemContainer}>
               <p className={css.projectNumber}>02</p>
               <h3 className={css.projectTitle}> Filmoteka</h3>
@@ -48,7 +50,7 @@ function Projects() {
             </div>
           </li>
           <li className={css.projectsListItem}>
-            <img src="" alt="" className={css.projectsListImage} />
+            <img src={TaskProGif} alt="" className={css.projectsListImage} />
             <div className={css.projectsListItemContainer}>
               <p className={css.projectNumber}>03</p>
               <h3 className={css.projectTitle}>TaskPro</h3>
