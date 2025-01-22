@@ -3,8 +3,9 @@ import css from "./Projects.module.css";
 import { ReactComponent as LinkIcon } from "../../img/link-icon.svg";
 
 import filmotekaGif from "../../img/Filmoteka-gif.gif";
-import ApeNFTGif from "../../img/App-gif.gif";
-import TaskProGif from "../../img/Task-Pro-gif.gif";
+import apeNFTGif from "../../img/App-gif.gif";
+import taskProGif from "../../img/Task-Pro-gif.gif";
+import iceCreameGif from "../../img/iceCreame.gif";
 
 function Projects() {
   return (
@@ -15,7 +16,7 @@ function Projects() {
         </h2>
         <ul className={css.projectsList}>
           <li className={css.projectsListItem}>
-            <img src={ApeNFTGif} alt="" className={css.projectsListImage} />
+            <img src={apeNFTGif} alt="" className={css.projectsListImage} />
             <div className={css.projectsListItemContainer}>
               <p className={css.projectNumber}>01</p>
               <h3 className={css.projectTitle}>Ape-NFT</h3>
@@ -26,7 +27,8 @@ function Projects() {
               </p>
               <a
                 href="https://e-khartaniuk.github.io/Ape-NFT/"
-                className={css.projectLink}>
+                className={css.projectLink}
+                target="_blank">
                 <LinkIcon className={css.linkIcon} />
               </a>
             </div>
@@ -44,13 +46,14 @@ function Projects() {
               </p>
               <a
                 href="https://aleksandremchenko.github.io/project-group-4-filmoteka/"
-                className={css.projectLink}>
+                className={css.projectLink}
+                target="_blank">
                 <LinkIcon className={css.linkIcon} />
               </a>
             </div>
           </li>
           <li className={css.projectsListItem}>
-            <img src={TaskProGif} alt="" className={css.projectsListImage} />
+            <img src={taskProGif} alt="" className={css.projectsListImage} />
             <div className={css.projectsListItemContainer}>
               <p className={css.projectNumber}>03</p>
               <h3 className={css.projectTitle}>TaskPro</h3>
@@ -63,13 +66,14 @@ function Projects() {
               </p>
               <a
                 href="https://romarionik.github.io/task-pro-team-project/"
-                className={css.projectLink}>
+                className={css.projectLink}
+                target="_blank">
                 <LinkIcon className={css.linkIcon} />
               </a>
             </div>
           </li>
           <li className={css.projectsListItem}>
-            <img src="" alt="" className={css.projectsListImage} />
+            <img src={iceCreameGif} alt="" className={css.projectsListImage} />
             <div className={css.projectsListItemContainer}>
               <p className={css.projectNumber}>04</p>
               <h3 className={css.projectTitle}>IceCream</h3>
@@ -80,7 +84,8 @@ function Projects() {
               </p>
               <a
                 href="https://aleksandremchenko.github.io/project-group-6-ice-cream/"
-                className={css.projectLink}>
+                className={css.projectLink}
+                target="_blank">
                 <LinkIcon className={css.linkIcon} />
               </a>
             </div>
