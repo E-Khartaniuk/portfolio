@@ -9,11 +9,10 @@ function Header() {
         KHARTANIUK
       </a>
       <nav className={css.navigation}>
-        <a href="\">logo</a>
-        <a href="">About Me</a>
-        <a href="">Skills</a>
-        <a href="">Project</a>
-        <a href="">Contact me</a>
+        <a href="#AboutMe">About Me</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Project">Project</a>
+        <a href="#Contact">Contact me</a>
       </nav>
 
       <a
@@ -22,7 +21,6 @@ function Header() {
         className={css.downloadButton}>
         Resume
         <DownloadIcon />
-        {/* <Download /> */}
       </a>
     </header>
   );

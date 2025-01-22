@@ -9,7 +9,7 @@ import iceCreameGif from "../../img/iceCreame.gif";
 
 function Projects() {
   return (
-    <section className={css.section}>
+    <section id="Project" className={css.section}>
       <div className={css.containerProjects}>
         <h2 className={css.projectsTitle}>
           My<span className={css.projectsTitleMe}> Projects</span>

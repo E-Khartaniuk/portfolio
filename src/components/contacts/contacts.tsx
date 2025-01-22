@@ -4,7 +4,7 @@ import ContactsLinks from "../ContactsLinks/ContactsLinks";
 
 function Contacts() {
   return (
-    <section className={css.section}>
+    <section id="Contact" className={css.section}>
       <h2 className={css.contactsTitle}>
         Contact<span className={css.contactsTitleMe}> Me</span>
       </h2>

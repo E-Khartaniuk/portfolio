@@ -3,7 +3,7 @@ import css from "./About.module.css";
 
 function About() {
   return (
-    <section className={css.section}>
+    <section id="AboutMe" className={css.section}>
       <div className={css.aboutImage} aria-hidden="true"></div>
       <div className={css.containerAbout}>
         <h2 className={css.aboutTitle}>
