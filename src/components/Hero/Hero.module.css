@@ -50,3 +50,29 @@
   padding-top: 60px;
   z-index: -1;
 }
+
+@media (min-width: 769px) and (max-width: 1280px) {
+  .heroSection {
+    width: 768px;
+    padding-top: 30px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .heroContainer {
+    width: 436px;
+  }
+  .heroDescription {
+    width: 300px;
+  }
+
+  .title {
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 16px;
+  }
+  .banner {
+    width: 667px;
+    padding-top: 60px;
+  }
+}

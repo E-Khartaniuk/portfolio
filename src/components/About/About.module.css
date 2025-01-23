@@ -49,3 +49,23 @@
 .containerAbout p:not(:last-child) {
   margin-bottom: 20px;
 }
+
+@media (min-width: 769px) and (max-width: 1280px) {
+  .section {
+    width: 768px;
+    padding: 40px 16px;
+
+    gap: 30px;
+  }
+  .aboutImage {
+    margin-top: 125px;
+    width: 279px;
+    height: 301px;
+  }
+  .containerAbout {
+    width: 368px;
+  }
+  .experienceList {
+    margin-top: 40px;
+  }
+}
