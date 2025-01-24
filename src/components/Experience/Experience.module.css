@@ -54,7 +54,7 @@
   letter-spacing: 0.32px;
 }
 
-@media (min-width: 769px) and (max-width: 1280px) {
+@media (min-width: 768px) and (max-width: 1280px) {
   .containerExperience {
     width: 768px;
     padding: 40px 16px;
