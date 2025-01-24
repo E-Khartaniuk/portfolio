@@ -64,3 +64,10 @@
     margin-top: 40px;
   }
 }
+
+@media (min-width: 380px) and (max-width: 767px) {
+  .containerExperience {
+    min-width: 360px;
+    max-width: 480px;
+  }
+}

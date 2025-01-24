@@ -24,11 +24,42 @@
   gap: 20px;
 }
 
-.email,
-.number {
+.contact {
   color: var(--Primary-Black, #000);
   font-size: 28px;
   font-weight: 600;
   line-height: 32px;
   letter-spacing: -0.56px;
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  .section {
+    margin: 0 auto;
+    width: 768px;
+    padding: 40px 16px;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 767px) {
+  .section {
+    padding: 40px 16px 40px 16px;
+    min-width: 360px;
+    max-width: 480px;
+  }
+
+  .contactsContainer {
+    gap: 12px;
+    margin-top: 32px;
+  }
+  .contactsTitle {
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.56px;
+  }
+  .contact {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+  }
 }
