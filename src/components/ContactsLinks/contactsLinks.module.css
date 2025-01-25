@@ -41,13 +41,14 @@
 @media (min-width: 380px) and (max-width: 767px) {
   .socialIconList {
     margin-top: 32px;
+    max-width: 448px;
   }
   .socialIconItemLink {
-    width: 48px;
-    height: 48px;
+    /* width: 48px;
+    height: 48px; */
   }
-  /* .socialIconItemLogo {
-    width: 24px;
-    height: 24px;
-  } */
+  .socialIconItemLogo {
+    /* width: 24px;
+    height: 24px; */
+  }
 }

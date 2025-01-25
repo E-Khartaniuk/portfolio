@@ -94,4 +94,18 @@
     min-width: 360px;
     max-width: 480px;
   }
+  .title {
+    font-size: 28px;
+    line-height: 32px; /* 114.286% */
+    letter-spacing: -0.56px;
+  }
+  .skillsList {
+    margin-top: 40px;
+    gap: 20px;
+  }
+  .skillsListItem {
+    width: 160px;
+    height: 160px;
+    gap: 26px;
+  }
 }

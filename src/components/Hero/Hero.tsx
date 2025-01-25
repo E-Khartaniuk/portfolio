@@ -8,6 +8,7 @@ function AboutMe() {
   return (
     <section className={css.heroSection}>
       <div className={css.heroContainer}>
+        <img src={banner} alt="Banner" className={css.banner} />
         <h1 className={css.title}>
           <span className={css.thin}>Hello I’am </span>
           <span className={css.bold}>Yevhenii Khartaniuk. Frontend</span>
@@ -23,7 +24,6 @@ function AboutMe() {
         </p>
         <ContactsLinks gitHub={true} />
       </div>
-      <img src={banner} alt="Banner" className={css.banner} />
     </section>
   );
 }

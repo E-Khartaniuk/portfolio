@@ -117,7 +117,40 @@
 
 @media (min-width: 380px) and (max-width: 767px) {
   .containerProjects {
+    padding: 60px 16px 40px;
     min-width: 360px;
     max-width: 480px;
+  }
+  .projectsTitle {
+    font-style: 28px;
+    line-height: 32px; /* 114.286% */
+    letter-spacing: -0.56px;
+  }
+  .projectsList {
+    margin-top: 40px;
+    gap: 28px;
+  }
+  .projectsListItem {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px;
+  }
+
+  .projectNumber {
+    margin-top: 28px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.48px;
+  }
+
+  .projectTitle {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+  }
+
+  .projectsListImage {
+    width: 100%;
+    flex: 1 0 0;
   }
 }
