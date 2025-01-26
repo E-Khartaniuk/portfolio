@@ -80,11 +80,13 @@
 @media (min-width: 380px) and (max-width: 767px) {
   .heroContainer {
     max-width: 448px;
+    width: 100%;
   }
   .heroSection {
     padding-top: 56px;
     min-width: 360px;
     max-width: 480px;
+    width: 100%;
   }
   .title {
     margin-top: 50px;

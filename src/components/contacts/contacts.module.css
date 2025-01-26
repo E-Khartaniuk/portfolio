@@ -45,6 +45,7 @@
     padding: 40px 16px 40px 16px;
     min-width: 360px;
     max-width: 480px;
+    width: 100%;
   }
 
   .contactsContainer {
