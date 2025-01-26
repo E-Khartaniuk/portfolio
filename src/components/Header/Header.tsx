@@ -11,9 +11,6 @@ function Header() {
 
   return (
     <header className={css.header}>
-      <button className={css.burgerButton} onClick={toggleMenu}>
-        {isMenuOpen ? "<CloseIcon />" : "<MenuIcon />"}
-      </button>
       <a href="/" className={css.logo}>
         KHARTANIUK
       </a>
@@ -31,14 +28,16 @@ function Header() {
           Contact me
         </a>
       </nav>
-
       <a
         href="../../../public/KHARTANIUK YEVHENII.pdf"
         download="KHARTANIUK YEVHENII1"
         className={css.downloadButton}>
         Resume
         <DownloadIcon />
-      </a>
+      </a>{" "}
+      <button className={css.burgerButton} onClick={toggleMenu}>
+        {isMenuOpen ? "close" : "open"}
+      </button>
     </header>
   );
 }

@@ -115,10 +115,10 @@
   }
 }
 
-@media (min-width: 380px) and (max-width: 767px) {
+@media (min-width: 340px) and (max-width: 767px) {
   .containerProjects {
     padding: 60px 16px 40px;
-    min-width: 360px;
+    min-width: 340px;
     max-width: 480px;
     width: 100%;
   }

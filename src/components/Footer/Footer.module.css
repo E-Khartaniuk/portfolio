@@ -7,6 +7,7 @@
   padding-bottom: 24px;
   color: var(--Primary-White);
   text-align: center;
+  margin: 0 auto;
 }
 
 @media (min-width: 768px) and (max-width: 1280px) {
@@ -18,9 +19,9 @@
   }
 }
 
-@media (min-width: 380px) and (max-width: 767px) {
+@media (min-width: 340px) and (max-width: 767px) {
   .footerContainer {
-    min-width: 360px;
+    min-width: 340px;
     max-width: 480px;
     font-size: 12px;
     letter-spacing: 0.24px;

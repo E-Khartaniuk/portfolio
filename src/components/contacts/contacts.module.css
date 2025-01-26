@@ -40,10 +40,10 @@
   }
 }
 
-@media (min-width: 380px) and (max-width: 767px) {
+@media (min-width: 340px) and (max-width: 767px) {
   .section {
     padding: 40px 16px 40px 16px;
-    min-width: 360px;
+    min-width: 340px;
     max-width: 480px;
     width: 100%;
   }

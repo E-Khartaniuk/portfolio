@@ -77,14 +77,14 @@
   }
 }
 
-@media (min-width: 380px) and (max-width: 767px) {
+@media (min-width: 340px) and (max-width: 767px) {
   .heroContainer {
     max-width: 448px;
     width: 100%;
   }
   .heroSection {
     padding-top: 56px;
-    min-width: 360px;
+    min-width: 340px;
     max-width: 480px;
     width: 100%;
   }
@@ -97,10 +97,12 @@
   }
   .heroDescription {
     max-width: 448px;
+    width: 100%;
   }
 
   .banner {
-    width: 350px;
+    max-width: 350px;
+    width: 100%;
     height: auto;
     position: relative;
     padding-top: 0;
