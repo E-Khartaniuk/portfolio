@@ -24,3 +24,6 @@ ul {
   --Zinc-500: #71717a;
   --Primary-White: #fff;
 }
+.no-scroll {
+  overflow: hidden;
+}

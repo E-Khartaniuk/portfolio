@@ -1,9 +1,39 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import css from "./Header.module.css";
 import DownloadIcon from "../../img/DownloadIcon";
+import { ReactComponent as HamburgerMenu } from "../../img/hamburger-menu.svg";
+import { ReactComponent as CloseIcon } from "../../img/close.svg";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const menuRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+    return () => {
+      document.body.classList.remove("no-scroll");
+    };
+  }, [isMenuOpen]);
+
+  useEffect(() => {
+    const handleClickOutside = (event: any) => {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        setIsMenuOpen(false);
+      }
+    };
+
+    if (isMenuOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [isMenuOpen]);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -14,7 +44,9 @@ function Header() {
       <a href="/" className={css.logo}>
         KHARTANIUK
       </a>
-      <nav className={`${css.navigation} ${isMenuOpen ? css.open : ""}`}>
+      <nav
+        ref={menuRef}
+        className={`${css.navigation} ${isMenuOpen ? css.open : ""}`}>
         <a href="#AboutMe" onClick={() => setIsMenuOpen(false)}>
           About Me
         </a>
@@ -34,9 +66,9 @@ function Header() {
         className={css.downloadButton}>
         Resume
         <DownloadIcon />
-      </a>{" "}
+      </a>
       <button className={css.burgerButton} onClick={toggleMenu}>
-        {isMenuOpen ? "close" : "open"}
+        {isMenuOpen ? <CloseIcon /> : <HamburgerMenu />}
       </button>
     </header>
   );

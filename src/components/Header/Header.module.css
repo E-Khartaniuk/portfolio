@@ -7,7 +7,8 @@
   justify-content: space-between;
   align-items: center;
 
-  /* position: relative; */
+  position: relative;
+  z-index: 12;
 }
 
 .logo {
@@ -61,12 +62,20 @@
   color: var(--Primary-White);
 }
 
+.downloadButton:hover {
+  background-color: #404040;
+}
+
 .burgerButton {
   display: none;
   background: none;
   border: none;
   cursor: pointer;
   z-index: 11;
+
+  /* position: fixed; */
+
+  filter: contrast(0.5);
 }
 
 @media (min-width: 768px) and (max-width: 1280px) {
@@ -85,8 +94,10 @@
   .header {
     flex-direction: row;
     min-width: 340px;
-    max-width: 480px;
+    /* max-width: 480px; */
     width: 100%;
+    position: fixed;
+    justify-content: space-around;
   }
 
   .navigation {
@@ -96,7 +107,7 @@
 
     top: 0px;
     right: 0;
-    background: #fff;
+    background: var(--Primary-White);
     padding: 1rem;
     transform: translateX(100%);
     width: 50%;
@@ -113,8 +124,7 @@
 
   .burgerButton {
     display: block;
-    /* position: fixed; */
-    top: 0;
+    top: 25px;
     right: 20px;
   }
 

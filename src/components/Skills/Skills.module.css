@@ -91,6 +91,7 @@
 
 @media (min-width: 340px) and (max-width: 767px) {
   .section {
+    padding-top: 40px;
     min-width: 340px;
     max-width: 480px;
     width: 100%;
@@ -102,6 +103,7 @@
   }
   .skillsList {
     margin-top: 40px;
+
     gap: 20px;
   }
   .skillsListItem {
