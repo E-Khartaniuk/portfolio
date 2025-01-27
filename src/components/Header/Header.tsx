@@ -63,7 +63,9 @@ function Header() {
       <a
         href="../../../public/KHARTANIUK YEVHENII.pdf"
         download="KHARTANIUK YEVHENII1"
-        className={css.downloadButton}>
+        // className={css.downloadButton}
+        // className={`${css.btnHover} ${css.color8}`}
+        className={`${css.downloadButton} ${css.color8}`}>
         Resume
         <DownloadIcon />
       </a>

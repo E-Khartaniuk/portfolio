@@ -38,7 +38,8 @@
     text-decoration: none;
   }
 
-  transition: transform 0.3s ease-in-out;
+  /* transition: transform 0.3s ease-in-out; */
+  transition: transform 244.623ms cubic-bezier(0, 1.36, 0.16, 1.03) -0.494438ms;
 }
 
 .downloadButton {
@@ -55,16 +56,42 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
-  line-height: 24px; /* 120% */
+  line-height: 24px;
   letter-spacing: 0.4px;
   text-decoration: none;
 
   color: var(--Primary-White);
+  border: none;
+  background-size: 300% 100%;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
+/* ========================> */
 
 .downloadButton:hover {
-  background-color: #404040;
+  background-position: 100% 0;
 }
+
+.downloadButton:focus {
+  outline: none;
+}
+.downloadButton.color8 {
+  background-image: linear-gradient(
+    to right,
+    #000000,
+    #474a4c,
+    #2b5876,
+    #4e4376
+  );
+  box-shadow: 0 4px 15px 0 rgba(25, 34, 45, 0.25);
+}
+
+/* ========================> */
+/* .downloadButton:hover {
+  background-color: #404040;
+} */
 
 .burgerButton {
   display: none;
@@ -72,9 +99,6 @@
   border: none;
   cursor: pointer;
   z-index: 11;
-
-  /* position: fixed; */
-
   filter: contrast(0.5);
 }
 
@@ -88,13 +112,15 @@
   .navigation > a {
     font-size: 16px;
   }
+  .downloadButton {
+    height: 36px;
+  }
 }
 
 @media (min-width: 340px) and (max-width: 767px) {
   .header {
     flex-direction: row;
     min-width: 340px;
-    /* max-width: 480px; */
     width: 100%;
     position: fixed;
     justify-content: space-around;
@@ -108,18 +134,19 @@
     top: 0px;
     right: 0;
     background: var(--Primary-White);
-    padding: 1rem;
     transform: translateX(100%);
     width: 50%;
     height: 100%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 10;
 
+    align-items: flex-start;
     padding-top: 80px;
+    padding-left: 60px;
   }
 
   .navigation.open {
-    transform: translateX(0);
+    transform: translateX(30%);
   }
 
   .burgerButton {
