@@ -62,9 +62,7 @@ function Header() {
       </nav>
       <a
         href="../../../public/KHARTANIUK YEVHENII.pdf"
-        download="KHARTANIUK YEVHENII1"
-        // className={css.downloadButton}
-        // className={`${css.btnHover} ${css.color8}`}
+        download="KHARTANIUK YEVHENII"
         className={`${css.downloadButton} ${css.color8}`}>
         Resume
         <DownloadIcon />
