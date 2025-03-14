@@ -10,8 +10,8 @@ function Contacts() {
       </h2>
       <div className={css.contactsContainer}>
         <p>Let’s talk for Something special</p>
-        <a href="mailto:co6alt@gmail.com" className={css.contact}>
-          co6alt@gmail.com
+        <a href="mailto:hartanyuk.e@gmail.com" className={css.contact}>
+          hartanyuk.e@gmail.com
         </a>
         <a href="tel:+380634406416" className={css.contact}>
           +380634406416

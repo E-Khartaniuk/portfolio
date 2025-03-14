@@ -146,7 +146,7 @@
   }
 
   .navigation.open {
-    transform: translateX(30%);
+    transform: translateX(-12%);
   }
 
   .burgerButton {
